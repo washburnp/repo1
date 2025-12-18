@@ -1,0 +1,112 @@
+Conversation
+------------
+
+Created:    2025-11-14T09:14:58.358881-08:00
+Downloaded: 2025-11-14T09:16:37.030964-08:00
+Source: https://www.coursera.org/hc/lhc-chat
+
+Number of requests:   10
+Number of responses:  11
+
+
+Virtual agent:
+    - JSON: ('{"json_":{"emitEvent":{"detail":{"note":"Learner\'s user information shown '
+ 'below","lastName":"Washburn","supportLanguage":"English","isConsumerLearner":"True","timezone":"America/New_York","fullName":"Patricia '
+ 'Washburn","isDegreeLearner":"False","isPoweruser":"False","locale":"en_US","userId":"305c235116182635c9be8514b3ede783","referrerUrl":"https://www.coursera.org/hc/lhc-chat","isEnterpriseLearner":"False","helpCenter":"Learner","emailVerified":"True","firstName":"Patricia","idLastDigit":"1","broswerVersion":"141.0.0.0","browserName":"Chrome","identityVerified":"True","email":"pjane64@proton.me"},"type":"clear_custom_payload"}}}')
+    - "Hi Patricia!"
+    - "I'm Cora!"
+    - JSON: '{"json_":{"emitEvent":{"detail":{"method":"GET","body":"-","url":"/api/programMemberships.v2?q=byUser&userId=__userid__&fields=rosterIds"},"type":"api_call"}}}'
+    - "..."
+
+
+You:
+    - "EVENT_HANDLER_SUCCESS"
+
+
+Virtual agent:
+    - JSON: '{"json_":{"emitEvent":{"detail":{},"type":"clear_custom_payload"}}}'
+    - JSON: '{"json_":{"emitEvent":{"detail":{"method":"GET","body":"-","url":"/api/enterpriseUserRosters.v1?ids=0000000&fields=contractId"},"type":"api_call"}}}'
+    - "..."
+
+
+You:
+    - "EVENT_HANDLER_SUCCESS"
+
+
+Virtual agent:
+    - JSON: '{"json_":{"emitEvent":{"detail":{},"type":"clear_custom_payload"}}}'
+    - JSON: '{"json_":{"emitEvent":{"detail":{"method":"GET","body":"-","url":"/api/enterpriseContractTags.v1?q=byContractIds&contractIds="},"type":"api_call"}}}'
+    - "..."
+
+
+You:
+    - "EVENT_HANDLER_SUCCESS"
+
+
+Virtual agent:
+    - JSON: '{"json_":{"emitEvent":{"detail":{},"type":"clear_custom_payload"}}}'
+    - JSON: '{"json_":{"emitEvent":{"detail":{"method":"GET","body":"-","url":"/api/subscriptions.v1?q=findByUser&userId=__userid__&fields=cartId,status,paymentProcessorId"},"type":"api_call"}}}'
+    - "..."
+
+
+You:
+    - "EVENT_HANDLER_SUCCESS"
+
+
+Virtual agent:
+    - JSON: '{"json_":{"emitEvent":{"detail":{},"type":"clear_custom_payload"}}}'
+    - JSON: '{"json_":{"emitEvent":{"detail":{"method":"GET","body":"-","url":"/api/carts.v2?limit=100&ids=583707680"},"type":"api_call"}}}'
+    - "..."
+
+
+You:
+    - "EVENT_HANDLER_SUCCESS"
+
+
+Virtual agent:
+    - JSON: '{"json_":{"emitEvent":{"detail":{},"type":"clear_custom_payload"}}}'
+    - "I'm trained to help with your learning. I can answer questions or help troubleshoot issues on Coursera."
+    - "Some of my responses may be AI-generated. You can verify the accuracy of my answers in our <a href="https://www.coursera.support/s/learner-help-center">Learner Help Center</a>."
+    - "What can I help you with? 🙂"
+
+
+You:
+    - "I am in a free trial and want to upgrade to an annual subscription at the $239 rate."
+
+
+Virtual agent:
+    - "I think I understood that, I can help you with this:"
+    - Options: "Free trials", "Upgrade to the paid version of a course"
+
+
+You:
+    - "Upgrade to the paid version of a course"
+
+
+Virtual agent:
+    - "I'm sorry I am uncertain that I have the correct answer. Can you try and rephrase your question?"
+
+
+You:
+    - "I want an annual subscription at the $239 rate."
+
+
+Virtual agent:
+    - "I'm sorry I am uncertain that I have the correct answer. Can you try and rephrase your question?"
+
+
+You:
+    - "I WANT TO GIVE YOUR COMPANY MONEY"
+
+
+Virtual agent:
+    - "I'm really sorry, but I don't have the information on how you can upgrade to an annual subscription at the $239 rate. Please visit our <a href="https://www.coursera.support/s/learner-help-center">Learner Help Center</a> for assistance."
+
+
+You:
+    - "THAT'S HOW I GOT INTO THIS CHAT"
+
+
+Virtual agent:
+    - "I'm sorry I am uncertain that I have the correct answer. Can you try and rephrase your question?"
+
